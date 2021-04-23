@@ -1,0 +1,11 @@
+.footer {
+  background-color: $dark-grey-color;
+  display: flex;
+  justify-content: space-between;
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+}

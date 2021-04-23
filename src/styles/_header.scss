@@ -1,0 +1,23 @@
+.header {
+  align-items: center;
+  background-color: $dark-grey-color;
+  display: flex;
+  justify-content: space-between;
+  height: 4vh;
+  
+  &__logo {
+    color: $light-grey-color;
+
+    padding-left: 1rem;
+  }
+
+  &__selector {
+    color: $white-color;
+    display: flex;
+    font-size: 0.8rem;
+    
+    gap: 0.5rem;
+    
+    padding-right: 1rem;
+  }
+}

@@ -4,12 +4,103 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.scss"><link>
+  <link rel="stylesheet" href="styles/main.scss"><link>
   <script src="main.js"></script>
-  <!-- TODO: Add title -->
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6c3d70a846.js" crossorigin="anonymous"></script>
+  <title>Backendless gallery</title>
 </head>
 <body>
-  <h1>Template</h1>
+  <header class="header">
+    <div class="header__logo text">
+      Backendless
+    </div>
+    <div class="header__radio">
+      <input type="radio" id="lightTheme">
+      <label for="lightTheme" class="text">Light Theme</label>
+
+      <input type="radio" id="darkTheme">
+      <label for="darkTheme" class="text">Dark Theme</label>
+
+      <input type="radio" id="grayTheme">
+      <label for="lightTheme" class="text">Gray Theme</label>
+    </div>
+
+    <div class="header__button">
+      <input type="radio" id="lightTheme">
+      <label for="lightTheme" class="text">Light Theme</label>
+
+      <input type="radio" id="darkTheme">
+      <label for="darkTheme" class="text">Dark Theme</label>
+
+      <input type="radio" id="grayTheme">
+      <label for="lightTheme" class="text">Gray Theme</label>
+    </div>
+
+    <div class="header__select">
+      <input type="radio" id="lightTheme">
+      <label for="lightTheme" class="text">Light Theme</label>
+
+      <input type="radio" id="darkTheme">
+      <label for="darkTheme" class="text">Dark Theme</label>
+
+      <input type="radio" id="grayTheme">
+      <label for="lightTheme" class="text">Gray Theme</label>
+    </div>
+  </header>
+
+  <main>
+    <h1>Backendless Gallery</h1>
+    <section class="section">
+      <div class="photo">
+        <div class="photo__one"></div>
+        <div class="photo__two"></div>
+        <div class="photo__three"></div>
+        <div class="photo__four"></div>
+        <div class="photo__five"></div>
+        <div class="photo__six"></div>
+        <div class="photo__seven"></div>
+        <div class="photo__eight"></div>
+        <div class="photo__nine"></div>
+        <div class="photo__ten"></div>
+        <div class="photo__eleven"></div>
+        <div class="photo__twelve"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__contacts">
+      <a href="https://backendless.com/" class="link">
+        Backendless.com
+      </a>
+      <a href="tel:555-555-555" class="link">555-555-555</a>
+    </div>
+
+    <div class="footer__socialmedia socialmedia">
+      <a href="#" class="link">
+        <i class="fab fa-instagram socialmedia__icon socialmedia__icon-dark"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-facebook-square socialmedia__icon socialmedia__icon-dark"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-twitter-square socialmedia__icon socialmedia__icon-dark"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-telegram socialmedia__icon socialmedia__icon-dark"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-youtube socialmedia__icon socialmedia__icon-dark"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fab fa-vk socialmedia__icon socialmedia__icon-dark"></i>
+      </a>
+      <a href="#" class="link">
+        <i class="fas fa-envelope socialmedia__icon socialmedia__icon-dark"></i>
+      </a>
+    </div>
+  </footer>
 </body>
 </html>

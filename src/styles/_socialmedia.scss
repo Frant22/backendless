@@ -1,0 +1,16 @@
+.socialmedia {
+  color: $white-color;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-right: 1rem;
+
+  &__icon {
+    height: 1rem;
+    width: 1rem;
+
+    &_dark {
+      color: $white-color;
+    }
+  }
+}

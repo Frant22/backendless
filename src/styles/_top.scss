@@ -1,0 +1,124 @@
+.photo {
+  display: grid;
+  height: 220vh;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "one one one two"
+    "one one one three"
+    "one one one four"
+    "five six seven eight"
+    "nine ten ten ten"
+    "eleven ten ten ten"
+    "twelve ten ten ten";
+
+  &__one {
+    grid-area: one;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__two {
+    grid-area: two;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__three {
+    grid-area: three;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__four {
+    grid-area: four;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__five {
+    grid-area: five;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__six {
+    grid-area: six;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__seven {
+    grid-area: seven;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__eight {
+    grid-area: eight;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__nine {
+    grid-area: nine;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__ten {
+    grid-area: ten;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__eleven {
+    grid-area: eleven;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+  &__twelve {
+    grid-area: twelve;
+    background-size: contain;
+    background: center / cover no-repeat url('http://placehold.it/1000x600');
+  }
+
+}
+
+@media screen and (max-width: $tablet-screen) {
+  .photo {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "one one two"
+      "one one three"
+      "four four five"
+      "four four six"
+      "seven seven eight"
+      "seven seven nine"
+      "ten ten eleven"
+      "ten ten twelve";
+  }
+}
+
+@media screen and (max-width: $phone-screen) {
+  .photo {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      "one one one"
+      "one one one"
+      "one one one"
+      "two three four"
+      "five five five"
+      "five five five"
+      "five five five"
+      "six seven eight"
+      "nine nine nine"
+      "nine nine nine"
+      "nine nine nine"
+      "ten eleven twelve";
+  }
+}
