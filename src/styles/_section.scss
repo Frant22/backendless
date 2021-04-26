@@ -5,6 +5,29 @@
     text-align: center;
     font-size: 3rem;
     padding: 3.5rem 0 2rem;
+    animation: color 4s infinite;
+
+    @keyframes color {
+      0% {
+        color: rgb(211, 0, 130);
+      }
+
+      25% {
+        color: rgb(0, 161, 35);
+      }
+
+      50% {
+        color: rgb(206, 202, 0);
+      }
+
+      75% {
+        color: rgb(0, 44, 190);
+      }
+
+      100% {
+        color: rgb(211, 0, 130);
+      }
+    }
   }
 
   &-light {
