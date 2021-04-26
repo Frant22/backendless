@@ -23,7 +23,7 @@ function changeTheme(value) {
 
     darkThemeButton.removeAttribute('checked');
     greyThemeButton.removeAttribute('checked');
-    lightThemeButton.setAttribute('checked', true);
+    lightThemeButton.setAttribute('checked', 'checked');
 
     greyThemeSelect.removeAttribute('selected');
     darkThemeSelect.removeAttribute('selected');
@@ -42,7 +42,7 @@ function changeTheme(value) {
 
     lightThemeButton.removeAttribute('checked');
     greyThemeButton.removeAttribute('checked');
-    darkThemeButton.setAttribute('checked', true);
+    darkThemeButton.setAttribute('checked', 'cheacked');
 
     greyThemeSelect.removeAttribute('selected');
     lightThemeSelect.removeAttribute('selected');
@@ -61,7 +61,7 @@ function changeTheme(value) {
 
     lightThemeButton.removeAttribute('checked');
     darkThemeButton.removeAttribute('checked');
-    greyThemeButton.setAttribute('checked', true);
+    greyThemeButton.setAttribute('checked', 'checked');
 
     lightThemeSelect.removeAttribute('selected');
     darkThemeSelect.removeAttribute('selected');
