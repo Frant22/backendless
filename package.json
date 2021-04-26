@@ -43,5 +43,7 @@
     "stylelint": "^13.12.0",
     "stylelint-config-sass-guidelines": "^8.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "stylelint-statement-max-nesting-depth": "^2.0.1"
+  }
 }

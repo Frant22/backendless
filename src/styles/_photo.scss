@@ -5,13 +5,13 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas:
-    "one one one two"
-    "one one one three"
-    "one one one four"
-    "five six seven eight"
-    "nine ten ten ten"
-    "eleven ten ten ten"
-    "twelve ten ten ten";
+    'one one one two'
+    'one one one three'
+    'one one one four'
+    'five six seven eight'
+    'nine ten ten ten'
+    'eleven ten ten ten'
+    'twelve ten ten ten';
 
   &__one {
     grid-area: one;
@@ -92,14 +92,14 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
-      "one one two"
-      "one one three"
-      "four four five"
-      "four four six"
-      "seven seven eight"
-      "seven seven nine"
-      "ten ten eleven"
-      "ten ten twelve";
+      'one one two'
+      'one one three'
+      'four four five'
+      'four four six'
+      'seven seven eight'
+      'seven seven nine'
+      'ten ten eleven'
+      'ten ten twelve';
   }
 }
 
@@ -108,17 +108,17 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
-      "one one one"
-      "one one one"
-      "one one one"
-      "two three four"
-      "five five five"
-      "five five five"
-      "five five five"
-      "six seven eight"
-      "nine nine nine"
-      "nine nine nine"
-      "nine nine nine"
-      "ten eleven twelve";
+      'one one one'
+      'one one one'
+      'one one one'
+      'two three four'
+      'five five five'
+      'five five five'
+      'five five five'
+      'six seven eight'
+      'nine nine nine'
+      'nine nine nine'
+      'nine nine nine'
+      'ten eleven twelve';
   }
 }

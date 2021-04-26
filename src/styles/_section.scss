@@ -1,0 +1,29 @@
+.section {
+  padding: 0 0.5rem;
+
+  &__heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0;
+  }
+
+  &-light {
+    background-color: $light-theme-color-section;
+    border-top: 0.3rem solid $light-theme-color-border;
+    border-bottom: 0.3rem solid $light-theme-color-border;
+  }
+
+  &-dark {
+    background-color: $dark-theme-color-section;
+    border-top: 0.3rem solid $dark-theme-color-border;
+    border-bottom: 0.3rem solid $dark-theme-color-border;
+    color: $white-color;
+  }
+
+  &-grey {
+    background-color: $grey-theme-color-section;
+    border-top: 0.3rem solid $grey-theme-color-border;
+    border-bottom: 0.3rem solid $grey-theme-color-border;
+    color: $white-color;
+  }
+}

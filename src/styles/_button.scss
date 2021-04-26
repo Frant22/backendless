@@ -1,0 +1,17 @@
+.button {
+  border-radius: 2px;
+  line-height: 1.5;
+  width: 7rem;
+
+  transition-duration: $transition-time;
+
+  &:hover {
+    background-color: $light-grey-color;
+
+    cursor: pointer;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
