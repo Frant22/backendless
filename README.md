@@ -1,6 +1,6 @@
 # Backendless gallery
 
-[Demo](https://github.com/Frant22/backendless/)
+[Demo](https://frant22.github.io/backendless/)
 
 ## General info / Development server
 
