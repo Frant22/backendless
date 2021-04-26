@@ -40,11 +40,11 @@
       <input
         type="radio"
         name="theme"
-        id="grayTheme"
+        id="greyTheme"
         value="grey"
       >
-      <label for="lightTheme">
-        Gray Theme
+      <label for="greyTheme">
+        Grey Theme
       </label>
     </div>
 
@@ -76,13 +76,17 @@
 
     <div class="header__select">
       <select name="select" id="select">
-        <option value="light">
+        <option
+          value="light"
+          id="lightSelect"
+          selected
+        >
           Light Theme
         </option>
-        <option value="dark">
+        <option value="dark" id="darkSelect">
           Dark Theme
         </option>
-        <option value="grey">
+        <option value="grey" id="greySelect">
           Grey Theme
         </option>
       </select>
