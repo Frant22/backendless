@@ -1,8 +1,13 @@
 .header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
   align-items: center;
   display: flex;
   justify-content: space-between;
-  height: 5vh;
+  height: 6vh;
   
   &__logo {
     font-size: 1.5rem;
@@ -28,15 +33,18 @@
 
   &-light {
     background-color: $light-theme-color;
+    border-bottom: 0.3rem solid $light-theme-color-border;
   }
 
   &-dark {
     background-color: $dark-theme-color;
+    border-bottom: 0.3rem solid $dark-theme-color-border;
     color: $white-color;
   }
 
   &-grey {
     background-color: $grey-theme-color;
+    border-bottom: 0.3rem solid $grey-theme-color-border;
     color: $white-color;
   }
 }
